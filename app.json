@@ -1,0 +1,28 @@
+{
+    "name": "Sneha-Ai", 
+    "logo": "https://telegra.ph/file/9e7815284031452afa9e5.jpg",
+    "description": "An Advanced Telegram UserId Chatbot.",
+    "env": {
+        "STRING": {
+            "description": "Pyrogram String session of your account",
+            "required": true
+        },        
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
